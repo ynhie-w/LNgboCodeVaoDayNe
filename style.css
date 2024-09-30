@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(238, 226, 226, 0.873);
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff; /* Màu chữ mặc định */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
+.pagination {
+  text-align: center;
+  margin: 20px 0; /* Khoảng cách trên và dưới */
+}
+
+.pagination ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+}
+
+.pagination li {
+  margin: 0 5px; /* Khoảng cách giữa các số */
+}
+
+.pagination a {
+  text-decoration: none;
+  color: rgb(231, 113, 133); /* Màu chữ */
+  padding: 10px 15px;
+  border: 1px solid rgb(231, 113, 133);
+  border-radius: 5px; /* Bo góc */
+  transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+}
+
+.pagination a:hover {
+  background-color: rgb(231, 113, 133); /* Màu nền khi hover */
+  color: white; /* Màu chữ khi hover */
+}
+
+nav a:hover {
+  color: #333; /* Màu chữ khi di chuột */
+}
+
+p {
+  text-align: center;
+  color: rgb(231, 113, 133);
+}
+
+.back-icon {
+  width: 4px; /* Thay đổi kích thước theo yêu cầu của bạn */
+  height: 4px; /* Hoặc bạn có thể bỏ qua height nếu muốn tự động điều chỉnh theo tỉ lệ */
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  color: rgb(231, 113, 133);
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+
+h2 {
+  color: rgb(231, 113, 133);
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+
+.tours ul {
+  list-style: none; /* Xóa dấu đầu dòng */
+  padding: 0; /* Xóa khoảng cách padding mặc định */
+}
+
+.tours li {
+  display: flex;
+  flex-direction: column; /* Đặt hướng cho các phần tử con theo cột */
+  align-items: center; /* Căn giữa các phần tử con theo chiều ngang */
+  margin: 20px; /* Khoảng cách giữa các mục tour */
+}
+
+button {
+  color: #000000;
+  background-color: rgb(231, 113, 133);
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff7691; /* Màu nền khi di chuột */
+  color: #fff; /* Màu chữ khi di chuột */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+header {
+  background-color: rgb(238, 163, 175);
+  color: #fff;
+  padding: 35px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.logo img {
+  max-width: 100px;
+  max-height: 100px;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+.hero img {
+  width: 60%;
+  height: auto;
+  float: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero button {
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.tours {
+  padding: 20px;
+}
+
+.tours ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tours li {
+  margin: 20px;
+  width: 30%;
+}
+
+/* Thêm hiệu ứng hover cho nút trong ul */
+.tours li button:hover {
+  background-color: #333; /* Thay đổi màu nền khi di chuột */
+  color: white; /* Thay đổi màu chữ khi di chuột */
+  transition: background-color 0.3s ease-in-out; /* Hiệu ứng chuyển màu mượt */
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border: none;
+  border-radius: 20px;
+}
+
+.tours h3 {
+  font-size: 24px;
+}
+
+ul {
+  color: rgb(231, 113, 133);
+}
+
+footer {
+  background-color: #333;
+  color: rgb(231, 113, 133);
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  font-size: 20px;
+}
+h3 {
+  text-align: center;
+}
